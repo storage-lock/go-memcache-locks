@@ -5,7 +5,7 @@ go 1.23
 require (
 	github.com/bradfitz/gomemcache v0.0.0-20260422231931-4d751bb6e37c
 	github.com/storage-lock/go-memcache-storage v0.0.1
-	github.com/storage-lock/go-storage-lock v0.0.6
+	github.com/storage-lock/go-storage-lock v0.1.0
 	github.com/storage-lock/go-storage-lock-factory v0.0.2
 	github.com/stretchr/testify v1.11.1
 )
@@ -21,16 +21,10 @@ require (
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/storage-lock/go-events v0.0.5 // indirect
 	github.com/storage-lock/go-ntp-time-provider v0.0.3 // indirect
-	github.com/storage-lock/go-storage v0.0.3 // indirect
+	github.com/storage-lock/go-storage v0.1.0 // indirect
 	github.com/storage-lock/go-storage-events v0.0.6 // indirect
 	github.com/storage-lock/go-utils v0.0.2 // indirect
 	golang.org/x/net v0.14.0 // indirect
 	golang.org/x/sys v0.11.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
-)
-
-replace (
-	github.com/storage-lock/go-memcache-storage => ../go-memcache-storage
-	github.com/storage-lock/go-storage => ../go-storage
-	github.com/storage-lock/go-storage-lock => ../go-storage-lock
 )
